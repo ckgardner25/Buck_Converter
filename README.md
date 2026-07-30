@@ -29,6 +29,7 @@ The PIC microcontroller generates complementary 100 kHz PWM signals with program
 <img width="400" height="350" alt="schematic" src="Simulations/20V_input_3.3V_output.png" />
 
 ## PCB Design
+Optimized for a compact 30x30mm footprint to minimize fabrication time and material costs. To ensure signal integrity, high-voltage switching paths were isolated from sensitive control circuitry using strategic multi-layer routing, localized ground planes, and dedicated physical keep-out zones to mitigate EMI.
 <br><p float="left">
 <img width="400" height="350" alt="DMM example" src="Renderings/Overview.png" />
 <img width="400" height="350" alt="DMM example" src="Renderings/Bottom.png" />
