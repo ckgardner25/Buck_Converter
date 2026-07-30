@@ -24,7 +24,7 @@ Simulation Suite: PSpice
 <img width="500" height="350" alt="schematic" src="Block_diagram/Block_diagram.png" />
 
 ## Control Strategy
-The PIC generates complementary 100 kHz PWM signals with programmable dead time. The input signal goes through 2 capacitors to stabilize the current. After this the signal goes through a MOSFET whos gate is driven by a PWM signal tied to its drain.  The signal then splits into a MOSFET with its gate connected to a PWM signal and a 47uH inductor that stabilizes the voltage behavior. The signal finally goes through a final 2 capacitors to stabilize current further.
+The PIC microcontroller generates complementary 100 kHz PWM signals with programmable dead time. The input signal first passes through two capacitors for input filtering and current stabilization. It then drives a MOSFET whose gate is controlled by a PWM signal. The output subsequently splits into two paths: one through a second PWM-controlled MOSFET and the other through a 47 µH inductor, which helps regulate voltage and reduce ripple. Finally, the output passes through two additional capacitors to further smooth the current and improve output stability.
 
 <img width="400" height="350" alt="schematic" src="Simulations/20V_input_3.3V_output.png" />
 
