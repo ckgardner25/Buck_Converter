@@ -4,21 +4,48 @@
 Designed and built a custom synchronous buck converter (5–20 V input, 3.3 V regulated output) using a PIC16F18313 microcontroller for digital PWM-based closed-loop voltage regulation. Developed embedded firmware with complementary PWM, programmable dead time, and ADC-based voltage sensing, achieving an ideal conversion efficiency of up to 95%, a 16.5% duty cycle for 20 V to 3.3 V conversion, and <1 ms settling time validated through PSpice simulation.
 
 ## Specifications
-Input Voltage: 5–20 V
-
-Output Voltage: 3.3 V
-
-Switching Frequency: 100 kHz
-
-Control: Closed-Loop PWM
-
-Dead Time: Programmable
-
-Efficiency: Up to 96%
-
-Settling Time: <1 ms
-
-Simulation Suite: PSpice
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Specification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Input Voltage</strong></td>
+      <td>5–20 V</td>
+    </tr>
+    <tr>
+      <td><strong>Output Voltage</strong></td>
+      <td>3.3 V</td>
+    </tr>
+    <tr>
+      <td><strong>Switching Frequency</strong></td>
+      <td>100 kHz</td>
+    </tr>
+    <tr>
+      <td><strong>Control</strong></td>
+      <td>Closed-Loop PWM</td>
+    </tr>
+    <tr>
+      <td><strong>Dead Time</strong></td>
+      <td>Programmable</td>
+    </tr>
+    <tr>
+      <td><strong>Efficiency</strong></td>
+      <td>Up to 96%</td>
+    </tr>
+    <tr>
+      <td><strong>Settling Time</strong></td>
+      <td>&lt;1 ms</td>
+    </tr>
+    <tr>
+      <td><strong>Simulation Suite</strong></td>
+      <td>PSpice</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Block Diagram
 <img width="500" height="350" alt="schematic" src="Block_diagram/Block_diagram.png" />
