@@ -74,7 +74,9 @@ Optimized for a compact 30x30mm footprint to minimize fabrication time and mater
 </p>
 
 ## Analysis Depth
-To confirm my design was valid with the maximum efficiency possible, I chose to simulate my buck converter topology in PSpice. This choice did slow down development however, it allowed me to fabricate without concern over whether the hardware would work conceptually. Some challenges I faced was that I had to alter the PWM signal because I wanted a 5V max pulse rather than a classic 10V. The 5V choice was because the max PWM output of the PIC16F18313 cannot exceed that threshold.
+To confirm my design was valid with the maximum efficiency possible, I chose to simulate my buck converter topology in PSpice. This choice did slow down development however, it allowed me to fabricate without concern over whether the hardware would work conceptually.
+
+Some challenges I faced was that I had to alter the PWM signal because I wanted a 5V max pulse rather than a classic 10V. The 5V choice was because the max PWM output of the PIC16F18313 cannot exceed that threshold.
 
 ## Simulation Results
 <img width="500" height="350" alt="DMM example" src="Simulations/Screenshot 2026-07-29 225215.png" />
