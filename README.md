@@ -17,6 +17,10 @@ Designed and built a custom synchronous buck converter (5–20 V input, 3.3 V re
       <td>5–20 V</td>
     </tr>
     <tr>
+      <td><strong> Thermal Resistance</strong></td>
+      <td>5.89 C</td>
+    </tr>
+    <tr>
       <td><strong>Output Voltage</strong></td>
       <td>3.3 V</td>
     </tr>
