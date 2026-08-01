@@ -25,7 +25,7 @@ I ended up choosing a classic 2 MOSFET design rather than a more complex isolate
     </tr>
     <tr>
       <td><strong> Thermal Resistance</strong></td>
-      <td>7.19 C</td>
+      <td>7.19 C @20V</td>
     </tr>
     <tr>
       <td><strong>Output Voltage</strong></td>
