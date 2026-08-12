@@ -83,6 +83,8 @@ Some challenges I faced was that I had to alter the PWM signal because I wanted 
 
 
 ## Measured Results
-<img width="300" height="450" alt="unpopulated board" src="Images/buck_converter_PCB.png" />
-
+<br><p float="left">
+<img width="250" height="250" alt="unpopulated board" src="Images/buck_converter_PCB.png" />
+<img width="250" height="250" alt="populated board" src="Images/buck_finish.png" />
+</p>
 
